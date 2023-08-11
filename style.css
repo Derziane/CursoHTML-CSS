@@ -1,47 +1,121 @@
-#destaque {
-	width: 100%;
+header{
+	background: #e8e8e8;
 }
 
-.principal {
-	background: #8B5742;
-	padding: 35px;
+.box {
+	width: 940px;
+	position: relative;
+	margin: 0 auto;
 }
 
-.título-principal {
-	background: #8B5742;
-	text-align: center;
-	padding: 35px;
+nav {
+	position: absolute;
+	top: 100px;
+	right: 0;
 }
 
-.título-centralizado {
-	text-align: center;
-}
-
-p {
-	text-align: center;
-}
-
-#feedback {
-	font-size: 22px;	
-}
-
-strong em {
-	color: red;
-}
-
-.diferencial {
-	background: #ffffff;
-}
-
-.lista-diferencial {
+nav li{
 	display: inline-block;
-	vertical-align: top;
-	width: 20%;
-	margin-right: 15%;
+	margin: 0 0 0 25px;
+	font-size: 28px;
 }
 
-.itens {
-	font-size: 20px;
-	font-style: italic;
+nav a {
+	color: #736b6b;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
 }
+
+nav a:hover {
+	color: #009e35;
+	text-decoration: underline;
+}
+
+.servicos {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.servicos li {
+	display: inline-block;
+	text-align: center;
+	padding: 12px;
+	margin: 1.5%;
+	border: 2px solid #949494;
+	border-radius: 10px;
+}
+
+.servicos li:hover {
+	border-color: #009e35;
+}
+
+.servicos h2 {
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.servicos h2:hover {
+	color: #009e35;
+}
+
+.servicos .descricao {
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+
+.servicos .preco {
+	font-size: 25px;
+}
+
+main {
+	width: 940px;
+	margin: 40px auto;
+
+}
+form {
+	margin: 40px;
+}
+
+form label, form p {
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.input-text {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.enviar {
+	width: 40%;
+	padding: 15px 0;
+	background: #009e35;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: #fe858a;
+}
+
+footer {
+	background: #e8e8e8;
+	text-align: center;
+	padding: 50px;
+}
+
+
 
