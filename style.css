@@ -78,7 +78,7 @@ form {
 	margin: 40px;
 }
 
-form label, form p {
+form label, form legend {
 	display: block;
 	font-size: 20px;
 	margin: 0 0 10px;
@@ -105,14 +105,31 @@ form label, form p {
 	border: none;
 	border-radius: 5px;
 	cursor: pointer;
+	margin-bottom: 20px;
 }
 
 .enviar:hover {
 	background: #fe858a;
 }
 
+.horario {
+	margin: 20px 60px;
+}
+
+th {
+	background: #555555;
+	color: white;
+	font-weight: bold;
+}
+
+.borda {
+	border: 1px solid #000000;
+	padding: 8px 15px;
+	cursor: pointer;
+}
+
 footer {
-	background: #e8e8e8;
+	background-color: #e8e8e8;
 	text-align: center;
 	padding: 50px;
 }

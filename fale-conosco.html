@@ -12,7 +12,7 @@
 
 			<div class="box">
 				<h1>
-					<img width="150px" src="imagens/logo-pet-shop.png">
+					<img width="150px" src="imagens/logo-pet-shop.png" alt="Logo do Pet Shop">
 				</h1>
 
 				<nav>
@@ -37,22 +37,22 @@
 			<form>
 				
 				<label for="name">Nome: </label>
-				<input type="text" id="name" class="input-text">
+				<input type="text" id="name" class="input-text"required>
 
 				<label for="mail">E-mail: </label>
-				<input type="text" id="mail" class="input-text">
+				<input type="email" id="mail" class="input-text"required>
 
 				<label for="cell">Celular: </label>
-				<input type="text" id="cell" class="input-text">
+				<input type="tel" id="cell" class="input-text"required>
 
 				<label for="message">Mensagem: </label>
-				<textarea cols="70" rows="10" id="message" class="input-text"></textarea>
+				<textarea cols="70" rows="10" id="message" class="input-text"required></textarea>
 
-				<div>
-					<p>Como podemos entrar em contato?</p>
+				<fieldset>
+					<legend>Como podemos entrar em contato?</legend>
 
 					<label for="radio-whatsapp">
-						<input type="radio" name="contact" id="radio-whatsapp" value="Whatsapp">Whatsapp
+						<input type="radio" name="contact" id="radio-whatsapp" value="Whatsapp" checked>Whatsapp
 					</label>
 
 					<label for="radio-celular">
@@ -63,21 +63,40 @@
 						<input type="radio" name="contact" id="radio-email" value="E-mail">E-mail
 					</label>
 
-				</div>
+				</fieldset>
 
 				<label class="checkbox">
-					<input type="checkbox" id="news"> Quero receber e-mails promocionais
+					<input type="checkbox" id="news" checked> Quero receber e-mails promocionais
 				</label>
 				
 				<input type="submit" value="Enviar!" class="enviar">
 
 			</form>
+
+			<table class="horario">
+				 <tr>
+					 <th class="borda">Dia</th>
+					 <th class="borda">Horário</th>
+ 				</tr>
+ 				<tr>
+					 <td class="borda">Segunda à sexta</td>
+					 <td class="borda">6h ~ 20h</td>
+ 				</tr>
+ 				<tr>
+					 <td class="borda">Sábado</td>
+					 <td class="borda">10h ~ 18h</td>
+				 </tr>
+				 <tr>
+					 <td class="borda">Domingos</td>
+					 <td class="borda">12h ~ 18h</td>
+				 </tr>
+			</table>			
 		
 		</main>
 
 		<footer>
 			
-			<img width="100px" src="imagens/logo-pet-shop.png">
+			<img width="100px" src="imagens/logo-pet-shop.png" alt="Logo do Pet Shop">
 
 			<p>&copy Copyright 2022</p>
 
