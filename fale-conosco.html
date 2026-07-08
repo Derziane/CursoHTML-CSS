@@ -1,109 +1,243 @@
-<!DOCTYPE HTML>
-<html lang="pt-br">
-	<head>
-		<meta charset="utf-8">
-		<title>Fale Conosco - Pet Shop Cão Feliz</title>
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<link rel="stylesheet" type="text/css" href="reset.css">
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-	</head>
-	<body>
+<!DOCTYPE html>
+<html lang="pt-BR">
 
-		<header>
+<head>
 
-			<div class="box">
-				<h1>
-					<img width="150px" src="imagens/logo-pet-shop.png" alt="Logo do Pet Shop">
-				</h1>
+    <!-- ==========================================
+         CONFIGURAÇÕES DA PÁGINA
+    =========================================== -->
 
-				<nav>
-					<ul>
-						<li>
-							<a href="index.html">Home</a>
-						</li>
-						<li>
-							<a href="servicos.html">Serviços</a>
-						</li>
-						<li>
-							<a href="fale.conosco.html">Fale conosco</a>
-						</li>
-					</ul>
-				</nav>
-			</div>
-	
-		</header>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<main>
-			
-			<form>
-				
-				<label for="name">Nome: </label>
-				<input type="text" id="name" class="input-text"required>
+    <title>Fale Conosco - Pet Shop Cão Feliz</title>
 
-				<label for="mail">E-mail: </label>
-				<input type="email" id="mail" class="input-text"required>
+    <!-- Arquivos CSS -->
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
 
-				<label for="cell">Celular: </label>
-				<input type="tel" id="cell" class="input-text"required>
+    <!-- Fonte Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-				<label for="message">Mensagem: </label>
-				<textarea cols="70" rows="10" id="message" class="input-text"required></textarea>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 
-				<fieldset>
-					<legend>Como podemos entrar em contato?</legend>
+</head>
 
-					<label for="radio-whatsapp">
-						<input type="radio" name="contact" id="radio-whatsapp" value="Whatsapp" checked>Whatsapp
-					</label>
+<body>
 
-					<label for="radio-celular">
-						<input type="radio" name="contact" id="radio-celular" value="Celular">Celular
-					</label>
+    <!-- ==========================================
+         CABEÇALHO
+    =========================================== -->
 
-					<label for="radio-email">
-						<input type="radio" name="contact" id="radio-email" value="E-mail">E-mail
-					</label>
+    <header>
 
-				</fieldset>
+        <div class="box">
 
-				<label class="checkbox">
-					<input type="checkbox" id="news" checked> Quero receber e-mails promocionais
-				</label>
-				
-				<input type="submit" value="Enviar!" class="enviar">
+            <!-- Logo -->
+            <h1>
+                <img src="imagens/logo-pet-shop.png"
+                     alt="Logo do Pet Shop Cão Feliz"
+                     width="150">
+            </h1>
 
-			</form>
+            <!-- Menu -->
+            <nav>
 
-			<table class="horario">
-				 <tr>
-					 <th class="borda">Dia</th>
-					 <th class="borda">Horário</th>
- 				</tr>
- 				<tr>
-					 <td class="borda">Segunda à sexta</td>
-					 <td class="borda">6h ~ 20h</td>
- 				</tr>
- 				<tr>
-					 <td class="borda">Sábado</td>
-					 <td class="borda">10h ~ 18h</td>
-				 </tr>
-				 <tr>
-					 <td class="borda">Domingos</td>
-					 <td class="borda">12h ~ 18h</td>
-				 </tr>
-			</table>			
-		
-		</main>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="fale-conosco.html">Fale Conosco</a></li>
+                </ul>
 
-		<footer>
-			
-			<img width="100px" src="imagens/logo-pet-shop.png" alt="Logo do Pet Shop">
+            </nav>
 
-			<p>&copy Copyright 2022</p>
+        </div>
 
-		</footer>
+    </header>
 
-	</body>
+    <!-- ==========================================
+         CONTEÚDO PRINCIPAL
+    =========================================== -->
+
+    <main>
+
+        <!-- ==========================
+             FORMULÁRIO
+        =========================== -->
+
+        <form action="#" method="post">
+
+            <!-- Nome -->
+            <label for="nome">Nome:</label>
+
+            <input
+                type="text"
+                id="nome"
+                name="nome"
+                class="input-text"
+                required>
+
+            <!-- E-mail -->
+            <label for="email">E-mail:</label>
+
+            <input
+                type="email"
+                id="email"
+                name="email"
+                class="input-text"
+                required>
+
+            <!-- Celular -->
+            <label for="celular">Celular:</label>
+
+            <input
+                type="tel"
+                id="celular"
+                name="celular"
+                class="input-text"
+                required>
+
+            <!-- Mensagem -->
+            <label for="mensagem">Mensagem:</label>
+
+            <textarea
+                id="mensagem"
+                name="mensagem"
+                cols="70"
+                rows="10"
+                class="input-text"
+                required>
+            </textarea>
+
+            <!-- Forma de contato -->
+
+            <fieldset>
+
+                <legend>Como podemos entrar em contato?</legend>
+
+                <label for="radio-whatsapp">
+
+                    <input
+                        type="radio"
+                        id="radio-whatsapp"
+                        name="contato"
+                        value="WhatsApp"
+                        checked>
+
+                    WhatsApp
+
+                </label>
+
+                <label for="radio-celular">
+
+                    <input
+                        type="radio"
+                        id="radio-celular"
+                        name="contato"
+                        value="Celular">
+
+                    Celular
+
+                </label>
+
+                <label for="radio-email">
+
+                    <input
+                        type="radio"
+                        id="radio-email"
+                        name="contato"
+                        value="E-mail">
+
+                    E-mail
+
+                </label>
+
+            </fieldset>
+
+            <!-- Newsletter -->
+
+            <label class="checkbox">
+
+                <input
+                    type="checkbox"
+                    id="newsletter"
+                    name="newsletter"
+                    checked>
+
+                Quero receber e-mails promocionais.
+
+            </label>
+
+            <!-- Botão -->
+
+            <input
+                type="submit"
+                value="Enviar"
+                class="enviar">
+
+        </form>
+
+        <!-- ==========================
+             TABELA DE HORÁRIOS
+        =========================== -->
+
+        <table class="horario">
+
+            <thead>
+
+                <tr>
+
+                    <th class="borda">Dia</th>
+                    <th class="borda">Horário</th>
+
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                <tr>
+
+                    <td class="borda">Segunda a sexta</td>
+                    <td class="borda">06h às 20h</td>
+
+                </tr>
+
+                <tr>
+
+                    <td class="borda">Sábado</td>
+                    <td class="borda">10h às 18h</td>
+
+                </tr>
+
+                <tr>
+
+                    <td class="borda">Domingo</td>
+                    <td class="borda">12h às 18h</td>
+
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </main>
+
+    <!-- ==========================================
+         RODAPÉ
+    =========================================== -->
+
+    <footer>
+
+        <img src="imagens/logo-pet-shop.png"
+             alt="Logo do Pet Shop Cão Feliz"
+             width="100">
+
+        <p>&copy; Copyright 2022 - Pet Shop Cão Feliz</p>
+
+    </footer>
+
+</body>
+
 </html>

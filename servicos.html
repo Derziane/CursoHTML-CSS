@@ -1,72 +1,137 @@
-<!DOCTYPE HTML>
-<html lang="pt-br">
-	<head>
-		<meta charset="utf-8">
-		<title>Serviços - Pet Shop Cão Feliz</title>
-		<link rel="stylesheet" type="text/css" href="reset.css">
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">		
-	</head>
-	<body>
+<!DOCTYPE html>
+<html lang="pt-BR">
 
-		<header>
+<head>
 
-			<div class="box">
-				<h1>
-					<img width="150px" src="imagens/logo-pet-shop.png">
-				</h1>
+    <!-- Configurações da página -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-				<nav>
-					<ul>
-						<li>
-							<a href="index.html">Home</a>
-						</li>
-						<li>
-							<a href="servicos.html">Serviços</a>
-						</li>
-						<li>
-							<a href="fale-conosco.html">Fale conosco</a>
-						</li>
-					</ul>
-				</nav>
-			</div>
-	
-		</header>
+    <title>Serviços - Pet Shop Cão Feliz</title>
 
-		<main>
-			
-			<ul class="servicos">
-				<li>
-					<h2>Banho</h2>
-					<img src="imagens/banho.png" width="250px">
-					<p class="descricao">Deixe seu pet limpinho e cheiroso</p>
-					<p class="preco">70,00</p>
-				</li>
-				<li>
-					<h2>Tosa Higienica</h2>
-					<img src="imagens/tosa-higienica.png"width="250px">
-					<p class="descricao">Seu pet mais livre, leve e solto</p>
-					<p class="preco">60,00</p>
-				</li>
-				<li>
-					<h2>Banho + tosa</h2>
-					<img src="imagens/banho-e-tosa.png"width="250px">
-					<p class="descricao">A combinação perfeita</p>
-					<p class="preco">100,00</p>
-				</li>
-			</ul>
-		
-		</main>
+    <!-- Arquivos CSS -->
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
 
-		<footer>
-			
-			<img width="100px" src="imagens/logo-pet-shop.png">
+    <!-- Fonte Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-			<p>&copy Copyright 2022</p>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 
-		</footer>
+</head>
 
-	</body>
+<body>
+
+    <!-- ================= CABEÇALHO ================= -->
+
+    <header>
+
+        <div class="box">
+
+            <!-- Logo do Pet Shop -->
+            <h1>
+                <img src="imagens/logo-pet-shop.png"
+                     alt="Logo do Pet Shop Cão Feliz"
+                     width="150">
+            </h1>
+
+            <!-- Menu de navegação -->
+            <nav>
+
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="fale-conosco.html">Fale Conosco</a></li>
+                </ul>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+    <!-- ================= CONTEÚDO PRINCIPAL ================= -->
+
+    <main>
+
+        <!-- Lista de serviços -->
+
+        <ul class="servicos">
+
+            <!-- Serviço 1 -->
+            <li>
+
+                <h2>Banho</h2>
+
+                <img src="imagens/banho.png"
+                     alt="Serviço de banho"
+                     width="250">
+
+                <p class="descricao">
+                    Deixe seu pet limpinho e cheiroso.
+                </p>
+
+                <p class="preco">
+                    R$ 70,00
+                </p>
+
+            </li>
+
+            <!-- Serviço 2 -->
+            <li>
+
+                <h2>Tosa Higiênica</h2>
+
+                <img src="imagens/tosa-higienica.png"
+                     alt="Serviço de tosa higiênica"
+                     width="250">
+
+                <p class="descricao">
+                    Seu pet mais livre, leve e confortável.
+                </p>
+
+                <p class="preco">
+                    R$ 60,00
+                </p>
+
+            </li>
+
+            <!-- Serviço 3 -->
+            <li>
+
+                <h2>Banho + Tosa</h2>
+
+                <img src="imagens/banho-e-tosa.png"
+                     alt="Serviço de banho e tosa"
+                     width="250">
+
+                <p class="descricao">
+                    A combinação perfeita para o seu pet.
+                </p>
+
+                <p class="preco">
+                    R$ 100,00
+                </p>
+
+            </li>
+
+        </ul>
+
+    </main>
+
+    <!-- ================= RODAPÉ ================= -->
+
+    <footer>
+
+        <img src="imagens/logo-pet-shop.png"
+             alt="Logo do Pet Shop Cão Feliz"
+             width="100">
+
+        <p>&copy; Copyright 2022 - Pet Shop Cão Feliz</p>
+
+    </footer>
+
+</body>
+
 </html>
