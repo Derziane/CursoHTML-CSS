@@ -1,0 +1,84 @@
+/*
+=====================================================
+RESET CSS
+
+Remove estilos padrões dos navegadores para que
+o site tenha o mesmo comportamento em diferentes
+navegadores.
+
+=====================================================
+*/
+
+
+/* Remove margens, espaçamentos e bordas padrões */
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+/* Ajuste geral do HTML */
+
+html {
+
+    scroll-behavior: smooth;
+
+}
+
+
+
+/* Remove marcadores das listas */
+
+ul {
+
+    list-style: none;
+
+}
+
+
+
+/* Remove decoração dos links */
+
+a {
+
+    text-decoration: none;
+
+}
+
+
+
+/* Ajuste das imagens */
+
+img {
+
+    max-width: 100%;
+    display: block;
+
+}
+
+
+
+/* Remove estilos padrões dos formulários */
+
+button,
+input,
+textarea {
+
+    font-family: inherit;
+
+}
+
+
+
+/* Ajuste das tabelas */
+
+table {
+
+    border-collapse: collapse;
+
+}
