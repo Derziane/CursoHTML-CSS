@@ -9,128 +9,243 @@
 
     <title>Serviços - Pet Shop Cão Feliz</title>
 
+
     <!-- Arquivos CSS -->
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
 
     <!-- Fonte Google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
 
 </head>
 
+
 <body>
 
-    <!-- ================= CABEÇALHO ================= -->
 
-    <header>
+<!-- ================= CABEÇALHO ================= -->
 
-        <div class="box">
 
-            <!-- Logo do Pet Shop -->
-            <h1>
-                <img src="imagens/logo-pet-shop.png"
-                     alt="Logo do Pet Shop Cão Feliz"
-                     width="150">
-            </h1>
+<header>
 
-            <!-- Menu de navegação -->
-            <nav>
+    <div class="container">
 
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="servicos.html">Serviços</a></li>
-                    <li><a href="fale-conosco.html">Fale Conosco</a></li>
-                </ul>
 
-            </nav>
+        <h1 class="logo">
+            🐾 Pet Shop Cão Feliz
+        </h1>
 
-        </div>
 
-    </header>
+        <nav>
 
-    <!-- ================= CONTEÚDO PRINCIPAL ================= -->
+            <ul>
 
-    <main>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
 
-        <!-- Lista de serviços -->
 
-        <ul class="servicos">
+                <li>
+                    <a href="servicos.html">Serviços</a>
+                </li>
 
-            <!-- Serviço 1 -->
-            <li>
 
-                <h2>Banho</h2>
+                <li>
+                    <a href="fale-conosco.html">Contato</a>
+                </li>
 
-                <img src="imagens/banho.png"
-                     alt="Serviço de banho"
-                     width="250">
 
-                <p class="descricao">
-                    Deixe seu pet limpinho e cheiroso.
-                </p>
+            </ul>
 
-                <p class="preco">
-                    R$ 70,00
-                </p>
+        </nav>
 
-            </li>
 
-            <!-- Serviço 2 -->
-            <li>
+    </div>
 
-                <h2>Tosa Higiênica</h2>
+</header>
 
-                <img src="imagens/tosa-higienica.png"
-                     alt="Serviço de tosa higiênica"
-                     width="250">
 
-                <p class="descricao">
-                    Seu pet mais livre, leve e confortável.
-                </p>
 
-                <p class="preco">
-                    R$ 60,00
-                </p>
 
-            </li>
+<!-- ================= SERVIÇOS ================= -->
 
-            <!-- Serviço 3 -->
-            <li>
 
-                <h2>Banho + Tosa</h2>
+<main>
 
-                <img src="imagens/banho-e-tosa.png"
-                     alt="Serviço de banho e tosa"
-                     width="250">
 
-                <p class="descricao">
-                    A combinação perfeita para o seu pet.
-                </p>
+<section class="servicos container">
 
-                <p class="preco">
-                    R$ 100,00
-                </p>
 
-            </li>
+<h2>
+    Nossos Serviços
+</h2>
 
-        </ul>
 
-    </main>
+<p class="subtitulo">
+    Cuidados especiais para deixar seu pet sempre feliz.
+</p>
 
-    <!-- ================= RODAPÉ ================= -->
 
-    <footer>
 
-        <img src="imagens/logo-pet-shop.png"
-             alt="Logo do Pet Shop Cão Feliz"
-             width="100">
+<div class="cards-servicos">
 
-        <p>&copy; Copyright 2022 - Pet Shop Cão Feliz</p>
 
-    </footer>
+
+<!-- Serviço 1 -->
+
+<div class="servico-card">
+
+
+<img 
+src="https://images.unsplash.com/photo-1516734212186-a967f81ad0d7"
+alt="Cachorro tomando banho">
+
+
+<h3>
+    Banho
+</h3>
+
+
+<p>
+    Higiene completa para seu pet ficar limpo,
+    cheiroso e confortável.
+</p>
+
+
+<span>
+    R$ 70,00
+</span>
+
+
+</div>
+
+
+
+
+
+<!-- Serviço 2 -->
+
+<div class="servico-card">
+
+
+<img 
+src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee"
+alt="Cachorro sendo cuidado">
+
+
+<h3>
+    Tosa Higiênica
+</h3>
+
+
+<p>
+    Cuidados para manter a saúde e o bem-estar
+    do seu animal.
+</p>
+
+
+<span>
+    R$ 60,00
+</span>
+
+
+</div>
+
+
+
+
+
+<!-- Serviço 3 -->
+
+<div class="servico-card">
+
+
+<img 
+src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b"
+alt="Cachorro feliz após cuidados">
+
+
+<h3>
+    Banho + Tosa
+</h3>
+
+
+<p>
+    O pacote completo para seu amigo ficar
+    ainda mais bonito.
+</p>
+
+
+<span>
+    R$ 100,00
+</span>
+
+
+</div>
+
+
+
+
+<!-- Serviço 4 -->
+
+<div class="servico-card">
+
+
+<img 
+src="https://images.unsplash.com/photo-1581888227599-779811939961"
+alt="Consulta veterinária">
+
+
+<h3>
+    Atendimento Veterinário
+</h3>
+
+
+<p>
+    Acompanhamento profissional para a saúde
+    do seu pet.
+</p>
+
+
+<span>
+    Consulte valores
+</span>
+
+
+</div>
+
+
+
+</div>
+
+
+</section>
+
+
+</main>
+
+
+
+
+<!-- ================= RODAPÉ ================= -->
+
+
+<footer>
+
+
+<p>
+    &copy; 2026 Pet Shop Cão Feliz - Todos os direitos reservados.
+</p>
+
+
+</footer>
+
+
 
 </body>
 

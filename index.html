@@ -2,162 +2,225 @@
 <html lang="pt-BR">
 
 <head>
-    <!-- Configurações da página -->
+
+    <!-- Configurações básicas -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Início - Pet Shop Cão Feliz </title>
+    <title>Pet Shop Cão Feliz</title>
 
-    <!-- Arquivos CSS -->
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <!-- Arquivo CSS -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <!-- Fonte Google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
 </head>
+
 
 <body>
 
-    <!-- ================= CABEÇALHO ================= -->
-    <header>
 
-        <div class="box">
+<!-- ================= CABEÇALHO ================= -->
 
-            <!-- Logo do Pet Shop -->
-            <h1>
-                <img src="imagens/logo-pet-shop.png"
-                     alt="Logo do Pet Shop Cão Feliz"
-                     width="150">
-            </h1>
+<header>
 
-            <!-- Menu de navegação -->
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="servicos.html">Serviços</a></li>
-                    <li><a href="fale-conosco.html">Fale Conosco</a></li>
-                </ul>
-            </nav>
+    <div class="container">
 
-        </div>
+        <h1 class="logo">
+            🐾 Pet Shop Cão Feliz
+        </h1>
 
-    </header>
 
-    <!-- ================= IMAGEM DE DESTAQUE ================= -->
+        <nav>
 
-    <img class="destaque"
-         src="imagens/destaque.jpg"
-         alt="Imagem de destaque do Pet Shop">
+            <ul>
 
-    <!-- ================= CONTEÚDO PRINCIPAL ================= -->
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
 
-    <main>
+                <li>
+                    <a href="servicos.html">Serviços</a>
+                </li>
 
-        <!-- Sobre a empresa -->
-        <section class="principal">
+                <li>
+                    <a href="fale-conosco.html">Contato</a>
+                </li>
 
-            <h2 class="titulo-centralizado">
-                Sobre o Pet Shop Cão Feliz
-            </h2>
-
-            <p>
-                Desde 2015 o Pet Shop Cão Feliz trabalha sem medir esforços para oferecer
-                os melhores cuidados para o seu animal de estimação. Aqui você encontra
-                serviços de <strong>excelente qualidade</strong>, realizados por profissionais
-                capacitados e com preços acessíveis.
-            </p>
-
-            <p id="feedback">
-                Nossos clientes costumam dizer:
-
-                <strong>
-                    <em>
-                        "Se meu cão está feliz, eu também estou feliz. Por isso adoro o trabalho desse Pet Shop."
-                    </em>
-                </strong>
-            </p>
-
-            <p>
-                Trabalhamos com os melhores produtos e oferecemos diversos serviços para
-                garantir a saúde e o bem-estar do seu pet. Também contamos com parceiros,
-                como veterinários, hotéis para cães e adestradores.
-            </p>
-
-        </section>
-
-        <!-- Diferenciais -->
-        <section class="diferencial">
-
-            <h3 class="titulo-centralizado">
-                Nosso Diferencial
-            </h3>
-
-            <ul class="lista-diferencial">
-                <li class="itens">Profissionais qualificados</li>
-                <li class="itens">Produtos de qualidade</li>
-                <li class="itens">Sistema leva e traz</li>
             </ul>
 
-            <img src="imagens/diferencial.jpg"
-                 alt="Equipe atendendo um cachorro"
-                 class="imagemdiferencial">
+        </nav>
 
-            <!-- Vídeo -->
-            <div class="video">
 
-                <iframe
-                    width="560"
-                    height="315"
-                    src="https://www.youtube.com/embed/92oRoNG9msM"
-                    title="Vídeo institucional"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen>
-                </iframe>
+    </div>
 
-            </div>
+</header>
 
-        </section>
 
-        <!-- Localização -->
-        <section class="mapa">
 
-            <h3 class="titulo-centralizado">
-                Onde estamos
-            </h3>
+<!-- ================= BANNER ================= -->
 
-            <p>
-                Estamos em uma localização privilegiada para facilitar o atendimento aos nossos clientes.
-            </p>
 
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.471535666386!2d-46.6576336!3d-23.587416199999996!2m3!1f0!2f0!3f0!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59f1069d11d1%3A0xcb936109af9ce541!2sParque%20Ibirapuera!5e0!3m2!1spt-BR!2sbr!4v1692217611730!5m2!1spt-BR!2sbr"
-                width="100%"
-                height="450"
-                style="border:0;"
-                loading="lazy"
-                allowfullscreen
-                referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
+<section class="banner">
 
-        </section>
 
-    </main>
+    <div class="banner-texto">
 
-    <!-- ================= RODAPÉ ================= -->
+        <h2>
+            O melhor cuidado para o seu melhor amigo
+        </h2>
 
-    <footer>
 
-        <img src="imagens/logo-pet-shop.png"
-             alt="Logo do Pet Shop Cão Feliz"
-             width="100">
+        <p>
+            Banho, tosa e cuidados especiais para deixar seu pet feliz e saudável.
+        </p>
 
-        <p>&copy; Copyright 2022 - Pet Shop Cão Feliz</p>
 
-    </footer>
+        <a href="servicos.html" class="botao">
+            Conheça nossos serviços
+        </a>
+
+
+    </div>
+
+
+</section>
+
+
+
+<!-- ================= SOBRE ================= -->
+
+
+<main>
+
+
+<section class="sobre container">
+
+
+    <h2>
+        Sobre o Pet Shop Cão Feliz
+    </h2>
+
+
+    <p>
+        Desde 2015 oferecemos carinho, cuidado e qualidade
+        para cães e gatos. Nossa missão é proporcionar
+        bem-estar aos animais e tranquilidade aos seus tutores.
+    </p>
+
+
+    <p>
+        Trabalhamos com profissionais especializados,
+        produtos de qualidade e atendimento personalizado.
+    </p>
+
+
+</section>
+
+
+
+
+<!-- ================= DIFERENCIAIS ================= -->
+
+
+<section class="diferenciais container">
+
+
+<h2>
+    Por que escolher o Cão Feliz?
+</h2>
+
+
+<div class="cards">
+
+
+<div class="card">
+
+    <h3>
+        🐶 Profissionais qualificados
+    </h3>
+
+    <p>
+        Equipe preparada para cuidar do seu pet.
+    </p>
+
+</div>
+
+
+
+<div class="card">
+
+    <h3>
+        🛁 Banho e Tosa
+    </h3>
+
+    <p>
+        Higiene e beleza com muito carinho.
+    </p>
+
+</div>
+
+
+
+<div class="card">
+
+    <h3>
+        ❤️ Amor pelos animais
+    </h3>
+
+    <p>
+        Tratamos cada pet como parte da família.
+    </p>
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+<!-- ================= IMAGEM ================= -->
+
+
+<section class="imagem-destaque">
+
+
+<img 
+src="https://images.unsplash.com/photo-1587300003388-59208cc962cb"
+alt="Cachorro feliz">
+
+
+</section>
+
+
+
+</main>
+
+
+
+
+<!-- ================= RODAPÉ ================= -->
+
+
+<footer>
+
+
+<p>
+    &copy; 2026 Pet Shop Cão Feliz - Todos os direitos reservados.
+</p>
+
+
+</footer>
+
+
 
 </body>
 
